@@ -6,13 +6,13 @@ function App() {
                  { name: '임꺽정', age: 19 },
                  { name: '전우치', age: 20 }];
 
-  let td1 = React.createElement("td", null, "이름");  
-  let td2 = React.createElement("td", null, "나이");
+  let td1 = <td>이름</td>;
+  let td2 = <td>나이</td>;
   let tr = React.createElement("tr", null, td1, td2);
   let trlist = [tr];
   for (let person of persons) {
-    td1 = React.createElement("td", null, person.name);  
-    td2 = React.createElement("td", null, person.age);
+    td1 = <td>{ person.name }</td>
+    td2 = <td>{ person.age }</td>
     tr = React.createElement("tr", null, td1, td2);
     trlist.push(tr);
   }
