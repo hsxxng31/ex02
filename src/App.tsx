@@ -1,16 +1,12 @@
-import React from "react";
-import MyTable from "./MyTable";
-import TimesTable from "./TimesTable";
+import Message from "./Message";
 
 function App() {
   return (
     <div>
-      <MyTable />
-      <hr />
-      <MyTable />
-      <TimesTable />
+      <Message value="안녕하세요" />
+      <Message value="안녕하세요" color="blue" />
+      <Message value="안녕하세요" color="blue" size={40} />
     </div>
   );
 }
-
 export default App;
