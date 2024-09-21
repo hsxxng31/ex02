@@ -10,6 +10,6 @@ table.MyTable td {
 tr.whiteBg {
   background-color: white;
 }
-tr:nth-child(even).grayBg {
+tr.grayBg {
   background-color: #ddd;
 }
