@@ -6,3 +6,10 @@ table.MyTable td {
   border: 1px solid gray;
   padding: 4px;
 }
+
+tr.whiteBg {
+  background-color: white;
+}
+tr:nth-child(even).grayBg {
+  background-color: #ddd;
+}
