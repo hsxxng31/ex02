@@ -1,10 +1,6 @@
-div {
-  margin: 10px;
-  font-size: 20pt;
-}
-p.blue {
-  color: blue;
-}
-p.green {
-  color: green;
+div.Numbers span {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  margin: 5px;
 }
