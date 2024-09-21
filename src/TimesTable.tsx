@@ -6,7 +6,7 @@ function TimesTable() {
 
   // 구구단 테이블 생성
   let timesTable = num.map((a, index) => (
-    <tr className="">
+    <tr>
       {num.map((b) => (
         <td>
           {b} * {a} = {a * b}
