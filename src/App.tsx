@@ -1,11 +1,12 @@
 import React from "react";
-import "./App.css";
+import MyTable from "./MyTable";
 
 function App() {
   return (
     <div>
-      <p className="blue">hello world</p>
-      <p className="green">안녕하세요</p>
+      <MyTable />
+      <hr />
+      <MyTable />
     </div>
   );
 }
